@@ -227,7 +227,7 @@ LOAD PROC near
  mov DX, offset resident_end
  mov CL, 4
  shr DX, CL
- add DX, 100h
+ add DX, 20h
  mov AH, 31h
  int 21h
 LOAD ENDP
